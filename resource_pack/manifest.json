@@ -1,8 +1,8 @@
 {
   "format_version": 2,
   "header": {
-    "description": "X-ray Mod Resource Pack",
-    "name": "X-ray Mod - Resources",
+    "description": "X-ray Resource Pack - See through stone to find ores",
+    "name": "X-ray Resource Pack",
     "uuid": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
     "version": [1, 0, 0],
     "min_engine_version": [1, 20, 0]

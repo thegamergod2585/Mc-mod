@@ -1,69 +1,47 @@
-# Minecraft Bedrock X-ray Mod
+# Minecraft Bedrock X-ray Resource Pack
 
-A simple X-ray mod for Minecraft Bedrock Edition that helps you find ores easily.
+A simple X-ray resource pack for Minecraft Bedrock Edition that makes ores transparent and easier to find.
 
 ## Features
 
-- **Ore Detection**: Automatically detects and highlights valuable ores within render distance
-- **Ores Supported**:
-  - Diamond Ore (including Deepslate variant)
-  - Gold Ore (including Deepslate variant)
-  - Iron Ore (including Deepslate variant)
-  - Copper Ore (including Deepslate variant)
-  - Emerald Ore (including Deepslate variant)
-  - Redstone Ore (including Deepslate variant)
-  - Lapis Ore (including Deepslate variant)
-  - Coal Ore (including Deepslate variant)
+- **Transparent Blocks**: Makes stone and deepslate transparent so you can see through
+- **Ore Highlighting**: Ores are bright and visible through blocks
+- **Supported Ores**:
+  - Diamond Ore
+  - Gold Ore
+  - Iron Ore
+  - Copper Ore
+  - Emerald Ore
+  - Redstone Ore
+  - Lapis Ore
+  - Coal Ore
+  - All Deepslate variants
 
 ## Installation
 
-1. Download or clone this repository
-2. Copy the `behavior_pack` and `resource_pack` folders to your Minecraft world
-3. Enable both packs in your world settings
-4. Restart Minecraft
+1. Download this resource pack
+2. Copy the folder to your Minecraft world's resource packs directory
+3. Enable the resource pack in your world settings
+4. Restart the world
 
-## Usage
+## How It Works
 
-### Commands
+This resource pack modifies the textures of:
+- Stone and Deepslate (made semi-transparent)
+- All ore blocks (made brighter and more visible)
 
-- **`!xray on`** - Enable X-ray mode
-- **`!xray off`** - Disable X-ray mode
-- **`!xray`** - Show help message
+This creates an X-ray effect by allowing you to see valuable ores through regular blocks.
 
-### How It Works
-
-Once X-ray is enabled, the mod will:
-1. Scan for ores in a 32-block radius around you
-2. Track their locations
-3. Update every 5 game ticks
-4. Continuously monitor as you move around
-
-## Technical Details
-
-- **Engine**: Minecraft Script API (@minecraft/server)
-- **Language**: JavaScript
-- **Render Distance**: 32 blocks
-- **Update Frequency**: Every 5 ticks (~250ms)
-
-## Configuration
-
-To modify the mod, edit `behavior_pack/scripts/main.js`:
-
-- `RENDER_DISTANCE`: Change detection radius (default: 32)
-- `CHECK_INTERVAL`: Change update frequency in ticks (default: 5)
-- `ORES`: Add or remove ore types from the detection list
-
-## Requirements
+## Compatibility
 
 - Minecraft Bedrock Edition 1.20.0+
-- Experimental Features enabled
-- Script API enabled in world settings
+- Works on all platforms (Windows, Xbox, Mobile, Switch)
 
 ## Notes
 
-- This mod requires enabling experimental features in your world
-- Performance may decrease with very large render distances
-- The mod only works in enabled worlds
+- This is purely a resource pack (no scripts required)
+- No experimental features needed
+- Can be used in survival or creative mode
 
 ## License
 
