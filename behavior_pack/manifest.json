@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "X-ray Mod - See through blocks to find ores",
+    "name": "X-ray Mod",
+    "uuid": "12345678-1234-1234-1234-123456789012",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "X-ray Script Module",
+      "type": "script",
+      "uuid": "87654321-4321-4321-4321-210987654321",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "ec01a4f9-ab44-40af-b46d-e27c5d2aafbc",
+      "version": [1, 0, 0]
+    }
+  ]
+}
