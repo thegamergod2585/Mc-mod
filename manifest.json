@@ -1,17 +1,22 @@
 {
   "format_version": 2,
   "header": {
-    "description": "X-ray Resource Pack - See ores through stone",
+    "description": "X-ray Resource Pack with X-Ray Goggles - See ores through stone",
     "name": "X-ray Resource Pack",
     "uuid": "12341234-1234-1234-1234-123412341234",
-    "version": [1, 0, 0],
+    "version": [1, 1, 0],
     "min_engine_version": [1, 20, 0]
   },
   "modules": [
     {
       "type": "resources",
       "uuid": "56785678-5678-5678-5678-567856785678",
-      "version": [1, 0, 0]
+      "version": [1, 1, 0]
+    },
+    {
+      "type": "behaviors",
+      "uuid": "87968796-8796-8796-8796-879687968796",
+      "version": [1, 1, 0]
     }
   ]
 }
