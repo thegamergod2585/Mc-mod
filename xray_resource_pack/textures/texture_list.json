@@ -1,0 +1,26 @@
+{
+  "texture_name": "atlas.terrain",
+  "resource_pack_name": "vanilla",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "stone": { "textures": "textures/blocks/stone" },
+    "deepslate": { "textures": "textures/blocks/deepslate" },
+    "diamond_ore": { "textures": "textures/blocks/diamond_ore" },
+    "gold_ore": { "textures": "textures/blocks/gold_ore" },
+    "iron_ore": { "textures": "textures/blocks/iron_ore" },
+    "copper_ore": { "textures": "textures/blocks/copper_ore" },
+    "emerald_ore": { "textures": "textures/blocks/emerald_ore" },
+    "redstone_ore": { "textures": "textures/blocks/redstone_ore" },
+    "lapis_ore": { "textures": "textures/blocks/lapis_ore" },
+    "coal_ore": { "textures": "textures/blocks/coal_ore" },
+    "deepslate_diamond_ore": { "textures": "textures/blocks/deepslate_diamond_ore" },
+    "deepslate_gold_ore": { "textures": "textures/blocks/deepslate_gold_ore" },
+    "deepslate_iron_ore": { "textures": "textures/blocks/deepslate_iron_ore" },
+    "deepslate_copper_ore": { "textures": "textures/blocks/deepslate_copper_ore" },
+    "deepslate_emerald_ore": { "textures": "textures/blocks/deepslate_emerald_ore" },
+    "deepslate_redstone_ore": { "textures": "textures/blocks/deepslate_redstone_ore" },
+    "deepslate_lapis_ore": { "textures": "textures/blocks/deepslate_lapis_ore" },
+    "deepslate_coal_ore": { "textures": "textures/blocks/deepslate_coal_ore" }
+  }
+}

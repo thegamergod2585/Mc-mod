@@ -4,45 +4,43 @@ A simple X-ray resource pack for Minecraft Bedrock Edition that makes ores trans
 
 ## Features
 
-- **Transparent Blocks**: Makes stone and deepslate transparent so you can see through
-- **Ore Highlighting**: Ores are bright and visible through blocks
-- **Supported Ores**:
-  - Diamond Ore
-  - Gold Ore
-  - Iron Ore
-  - Copper Ore
-  - Emerald Ore
-  - Redstone Ore
-  - Lapis Ore
-  - Coal Ore
-  - All Deepslate variants
+- **Transparent Stone**: See through stone and deepslate to spot ores
+- **Bright Ores**: Ore textures are enhanced and more visible
+- **Bedrock Compatible**: Works on all Bedrock platforms (Windows, Xbox, Mobile, Switch)
+- **No Scripts**: Pure resource pack - no experimental features needed
+
+## Supported Ores
+
+- Diamond Ore (+ Deepslate)
+- Gold Ore (+ Deepslate)
+- Iron Ore (+ Deepslate)
+- Copper Ore (+ Deepslate)
+- Emerald Ore (+ Deepslate)
+- Redstone Ore (+ Deepslate)
+- Lapis Ore (+ Deepslate)
+- Coal Ore (+ Deepslate)
 
 ## Installation
 
-1. Download this resource pack
-2. Copy the folder to your Minecraft world's resource packs directory
-3. Enable the resource pack in your world settings
-4. Restart the world
+1. Download the resource pack
+2. Open Minecraft and go to Settings > Resource Packs
+3. Click "My Packs" and add this resource pack
+4. Apply the pack to your world
+5. Play!
 
 ## How It Works
 
-This resource pack modifies the textures of:
-- Stone and Deepslate (made semi-transparent)
-- All ore blocks (made brighter and more visible)
-
-This creates an X-ray effect by allowing you to see valuable ores through regular blocks.
+This resource pack modifies block textures to:
+- Make stone semi-transparent (you can see through it)
+- Brighten ore textures so they stand out
+- Create an X-ray effect without any mods or scripts
 
 ## Compatibility
 
 - Minecraft Bedrock Edition 1.20.0+
-- Works on all platforms (Windows, Xbox, Mobile, Switch)
-
-## Notes
-
-- This is purely a resource pack (no scripts required)
-- No experimental features needed
-- Can be used in survival or creative mode
+- All platforms supported
+- Survival and Creative mode
 
 ## License
 
-Feel free to modify and distribute as needed.
+Free to use and modify!
