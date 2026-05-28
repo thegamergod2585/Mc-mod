@@ -1,0 +1,19 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "minecraft:stone",
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "ambient_occlusion": false,
+          "face_dimming": true,
+          "texture": "stone",
+          "render_method": "alpha_test"
+        }
+      }
+    }
+  }
+}
